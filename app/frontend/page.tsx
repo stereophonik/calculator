@@ -17,13 +17,13 @@ export default function Page() {
 
     const validate = () => {
         const errors = {};
-        if (!formData.area) errors.area = "Please select an area.";
-        if (!formData.structuralChanges) errors.structuralChanges = "Please select structural changes.";
-        if (!formData.plumbingChanges) errors.plumbingChanges = "Please select plumbing changes.";
-        if (!formData.fixturesAndFittings) errors.fixturesAndFittings = "Please select fixtures and fittings.";
-        if (!formData.mirrorOrCabinet) errors.mirrorOrCabinet = "Please select mirror or cabinet.";
-        if (!formData.tiling) errors.tiling = "Please select tiling.";
-        if (!formData.smallStepUp) errors.smallStepUp = "Please select small step-up.";
+        if (!formData.area) errors["area"] = "Please select an area.";
+        if (!formData.structuralChanges) errors["structuralChanges"] = "Please select structural changes.";
+        if (!formData.plumbingChanges) errors["plumbingChanges"] = "Please select plumbing changes.";
+        if (!formData.fixturesAndFittings) errors["fixturesAndFittings"] = "Please select fixtures and fittings.";
+        if (!formData.mirrorOrCabinet) errors["mirrorOrCabinet"] = "Please select mirror or cabinet.";
+        if (!formData.tiling) errors["tiling"] = "Please select tiling.";
+        if (!formData.smallStepUp) errors["smallStepUp"] = "Please select small step-up.";
         setFormErrors(errors);
         return Object.keys(errors).length === 0;
     };

@@ -252,5 +252,5 @@ export async function POST(request: NextRequest) {
         }
     }
 
-    return NextResponse.json({ tier: tier });
+    return NextResponse.json({ tier: tier }, { status: 201 });
 }
