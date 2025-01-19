@@ -1,4 +1,10 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../Montserrat-VariableFont_wght.ttf");
+}
+
 .facebook-form-container {
+    font-family: "Montserrat";
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,6 +14,7 @@
 }
 
 .facebook-card {
+    font-family: "Montserrat";
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,6 +23,7 @@
 }
 
 .facebook-title {
+    font-family: "Montserrat";
     text-align: center;
     font-size: 1.5em;
     color: #6b99a1;
@@ -23,10 +31,12 @@
 }
 
 .facebook-form-group {
+    font-family: "Montserrat";
     margin-bottom: 15px;
 }
 
 .facebook-label {
+    font-family: "Montserrat";
     font-size: 14px;
     color: #4b4f56;
     margin-bottom: 5px;
@@ -34,6 +44,7 @@
 }
 
 .facebook-select {
+    font-family: "Montserrat";
     width: 100%;
     padding: 8px;
     border: 1px solid #ced0d4;
@@ -44,11 +55,13 @@
 }
 
 .facebook-error {
+    font-family: "Montserrat";
     color: red;
     font-size: 12px;
 }
 
 .facebook-button {
+    font-family: "Montserrat";
     width: 100%;
     background-color: #6b99a1;
     color: white;
@@ -61,10 +74,12 @@
 }
 
 .facebook-button:hover {
+    font-family: "Montserrat";
     background-color: #165dba;
 }
 
 .facebook-result {
+    font-family: "Montserrat";
     margin-top: 20px;
     text-align: center;
     color: #4b4f56;

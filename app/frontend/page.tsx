@@ -81,11 +81,15 @@ export default function Page() {
                     </button>
                 </form>
                 {result && (
-                    <div className="facebook-result">
-                        <h3>Result</h3>
-                        <p>Name: {result.name}</p>
-                        <p>Average Price Range: {result.averagePriceRange}</p>
-                    </div>
+                    <>
+                        <div className="facebook-result">
+                            <h3 style={{fontSize: "xx-large"}}>Result</h3>
+                            <p style={{fontSize: "x-large"}}>{result.name}</p>
+                            <p style={{fontSize: "x-large"}}>Average Price Range: {result.averagePriceRange}</p>
+                            <p style={{fontSize: "x-small"}}>We’d love to hear from you! Click the button below to fill out our Contact Us form and let us know how we can help you. Your input matters to us!</p>
+                        </div>
+                        <a href="https://classconstructions.com.au/contact-us/"><button className="facebook-button">REQUEST YOUR CONSULT</button></a>
+                    </>
                 )}
             </div>
         </div>
